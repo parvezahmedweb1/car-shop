@@ -12,12 +12,38 @@ h3 {
 body {
   font-family: "Poppins", sans-serif;
 }
+:root {
+  /* colour */
+  --btn-bg: #ffbf00;
+}
 /* ----------------------------------------
     !default style end
 -----------------------------------------*/
 /* ----------------------------------------
     !repeat style start
 -----------------------------------------*/
+.btn-bg {
+  background-color: var(--btn-bg);
+}
+.h1 {
+  font-size: 4rem;
+}
+.off-color {
+  color: var(--btn-bg);
+}
 /* ----------------------------------------
     !repeat style end
+-----------------------------------------*/
+/* ----------------------------------------
+    !home style start
+-----------------------------------------*/
+.home-section {
+  height: 100vh;
+  padding-top: 80px;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ----------------------------------------
+    !home style end
 -----------------------------------------*/
