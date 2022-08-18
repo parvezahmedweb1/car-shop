@@ -137,14 +137,18 @@ function openModal(product) {
                       <p><span class="fw-semibold">${product.review}</span> reviews</p>
                     </div>
                     <p class="d-flex fw-semibold">
-                      <span class="mt-2">$</span><span class="fs-1">${product.price}</span>
+                      <span class="mt-2">$</span><span id="product-price" class="fs-1">${product.price}</span>
                     </p>
                   </div>
-                  <div class="text-center d-flex justify-content-center align-items-center">
-                      <button class="btn btn-danger p-2 px-3"><i class="fa-solid fa-minus"></i></button>
-                      <span class="fw-semibold fs-2 ms-3 me-3">0</span>
-                      <button class="btn btn-success p-2 px-3"><i class="fa-solid fa-plus"></i></button>
-                    </div>
                 </div>
   `;
 }
+
+document.getElementById("audi-btn").addEventListener("click", function () {
+  const searchName = "audi";
+  for (let product of products) {
+    if (searchName.toLowerCase() === product.name.toLowerCase()) {
+      console.log(product);
+    }
+  }
+});

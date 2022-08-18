@@ -60,3 +60,18 @@ body {
 /* ----------------------------------------
     !products style end
 -----------------------------------------*/
+/* ----------------------------------------
+    !about style start
+-----------------------------------------*/
+.about-section {
+  background-color: #ffbf00;
+}
+.about {
+  height: 70vh;
+  background-image: url("../images/multiple-car.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* ----------------------------------------
+    !about style end
+-----------------------------------------*/
